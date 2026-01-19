@@ -1,11 +1,11 @@
 # **Final Laboratory Exam – IoT API Trigger System**
 
-## 📘 Introduction
+## Introduction
 This project showcases a practical implementation of an IoT trigger mechanism where a physical button activates an online service. Instead of hosting a server on the microcontroller, the device functions purely as an input generator, while the computer and Python script handle all networking tasks. The work reflects real-world IoT workflows used in smart devices that trigger cloud events through simple physical interactions.
 
 ---
 
-## 🛠 System Purpose
+## System Purpose
 The design provides a **physical activation button** specifically for **Group 3**, enabling them to send a remote toggle request to the instructor’s API. When a user presses the button:
 
 1. The Arduino detects the press.
@@ -18,7 +18,7 @@ This allows a basic hardware action to control a cloud-side event.
 
 ---
 
-## 🧱 System Architecture
+## System Architecture
 
 ### **1️⃣ Edge Device (Arduino)**
 - A push button is connected to **Digital Pin 4**.
@@ -37,7 +37,7 @@ This allows a basic hardware action to control a cloud-side event.
   
 ---
 
-## 💻 Code Breakdown
+## Code Breakdown
 
 ### **Arduino Code Highlights**
 - **Debounce Logic:** Prevents repeated signals caused by mechanical noise in the button.
@@ -54,7 +54,7 @@ This allows a basic hardware action to control a cloud-side event.
 
 ---
 
-## 📡 IoT Principles Demonstrated
+## IoT Principles Demonstrated
 
 ### **🔹 Hardware-to-Software Integration**
 A basic hardware interface (button press) triggers high-level software actions.
@@ -68,7 +68,7 @@ The Python script sends structured HTTP requests to control remote resources.
 ### **🔹 Noise Filtering via Debouncing**
 Ensures the system reflects intentional button presses only.
 
-## 📌 Summary
+## Summary
 This final exam activity successfully connects a **physical input** to a **cloud-triggered action**, demonstrating how IoT systems transform basic hardware events into web-based operations. The project emphasizes:
 
 - clean signal processing  
