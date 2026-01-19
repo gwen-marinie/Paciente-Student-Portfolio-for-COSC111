@@ -1,11 +1,11 @@
 # **Laboratory Activity #4 – Arduino Serial Connection**
 
-## 📘 Project Overview
+## Project Overview
 This activity introduces **two-way communication** between an Arduino and a computer via **Serial Communication (UART)**. Unlike previous projects that ran autonomously, this system allows **real-time human intervention**, enabling users to control hardware behavior by sending text commands through the Arduino Serial Monitor.
 
 ---
 
-## 🎯 System Features
+## System Features
 - **Light Monitoring:** Continuously reads brightness from a photoresistor.  
 - **Persistent Alarm:** When brightness exceeds a threshold (220), the system enters **Alarm Mode**, blinking an LED endlessly.  
 - **Latching State:** Once triggered, the alarm **remains active**, even if the light level drops.  
@@ -13,14 +13,14 @@ This activity introduces **two-way communication** between an Arduino and a comp
 
 ---
 
-## 🛠 Hardware Setup
+## Hardware Setup
 - **Photoresistor:** Connected to **Pin A2** to measure ambient light.  
 - **LED:** Connected to **Digital Pin 12** as a visual alarm indicator.  
 - **Arduino:** Powered via USB, connected to a computer for Serial communication.  
 
 ---
 
-## ⚙ How It Works
+## How It Works
 
 ### **1️⃣ Input**
 - **Hardware:** Photoresistor reads light intensity (0–1023).  
@@ -42,7 +42,7 @@ This activity introduces **two-way communication** between an Arduino and a comp
 
 ---
 
-## 📡 IoT Concepts Demonstrated
+## IoT Concepts Demonstrated
 - **Serial Communication (UART):** Two-way interface for sending and receiving data between Arduino and computer.  
 - **State Retention (Latching):** The system remembers an event and persists in a state until explicitly reset.  
 - **String Manipulation:** Case-insensitive command processing improves user interaction.  
@@ -50,6 +50,6 @@ This activity introduces **two-way communication** between an Arduino and a comp
 
 ---
 
-## ✅ Summary
+## Summary
 This activity emphasizes **interactive IoT systems**, where hardware reacts to both environmental input and **user commands**.  
 It teaches **latching states, Serial communication, and string handling**, providing a foundation for safety-critical applications that require **human acknowledgment** to reset triggered events.
