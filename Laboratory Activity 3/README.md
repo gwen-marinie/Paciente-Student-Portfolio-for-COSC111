@@ -1,6 +1,6 @@
 # **Laboratory Activity #3 – Fire Sensor Simulation**
 
-## 📘 Project Overview
+## Project Overview
 This project focuses on the **input side of IoT systems** by integrating environmental sensors to monitor real-world conditions.  
 The system simulates a **fire alarm** by continuously reading temperature and light intensity, then triggering alerts when danger conditions are detected.  
 
@@ -8,7 +8,7 @@ Unlike previous activities that controlled outputs (LEDs), this project emphasiz
 
 ---
 
-## 🎯 System Features
+## System Features
 - **Real-time Monitoring:** Continuously reads temperature and ambient light.  
 - **Detection Logic:** Triggers an alarm only when both conditions are met:  
   - Temperature ≥ 50°C  
@@ -18,7 +18,7 @@ Unlike previous activities that controlled outputs (LEDs), this project emphasiz
 
 ---
 
-## 🛠 Hardware Setup
+## Hardware Setup
 - **Thermistor (Pin A0):** Measures temperature (e.g., TMP36 or NTC Thermistor).  
 - **Photoresistor (Pin A2):** Measures ambient light intensity.  
 - **Red LED (Pin 12):** Visual alarm indicator.  
@@ -27,7 +27,7 @@ Unlike previous activities that controlled outputs (LEDs), this project emphasiz
 
 ---
 
-## ⚙ How It Works
+## How It Works
 
 ### **1️⃣ Sensor Fusion**
 - Combines readings from **temperature** and **light sensors** to create a more reliable alarm system.  
