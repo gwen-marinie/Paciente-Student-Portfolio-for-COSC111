@@ -1,12 +1,12 @@
 # **Laboratory Activity #6 – Bi-Directional Serial Communication**
 
-## 📘 Project Overview
+## Project Overview
 This activity introduces **bi-directional (full-duplex) communication** between an Arduino and a Python script, creating a **closed-loop IoT system**.  
 Unlike previous labs with one-way control, this project enables **simultaneous sending and receiving** of data, mimicking the architecture of real-world IoT devices and cloud servers.
 
 ---
 
-## 🎯 System Features
+## System Features
 - **Round-Trip Interaction:** Physical button presses trigger responses from Python, which then sends commands back to Arduino.  
 - **Real-Time LED Control:** Arduino toggles LEDs based on Python instructions.  
 - **Automated Logic:** Python processes hardware events automatically without manual typing.  
@@ -14,7 +14,7 @@ Unlike previous labs with one-way control, this project enables **simultaneous s
 
 ---
 
-## 🛠 Hardware Setup
+## Hardware Setup
 - **Inputs:** Three push buttons connected to pins **12, 11, 10**.  
 - **Outputs:** Three LEDs connected to pins **7 (Red), 6 (Green), 5 (Blue)**.  
 - **Arduino:** Powered via USB and connected to a Python-enabled computer.  
@@ -22,7 +22,7 @@ Unlike previous labs with one-way control, this project enables **simultaneous s
 
 ---
 
-## ⚙ How It Works
+## How It Works
 
 ### **1️⃣ Signal Flow**
 1. User presses a button on the breadboard.  
@@ -49,7 +49,7 @@ Unlike previous labs with one-way control, this project enables **simultaneous s
 
 ---
 
-## 📡 IoT Concepts Demonstrated
+## IoT Concepts Demonstrated
 - **Full-Duplex Communication:** Devices can **send and receive simultaneously**.  
 - **Edge Detection:** Events are triggered **only on signal transitions** (button press), not steady states.  
 - **Latency Awareness:** Demonstrates minimal delay between hardware input and output via Serial communication.  
@@ -57,6 +57,6 @@ Unlike previous labs with one-way control, this project enables **simultaneous s
 
 ---
 
-## ✅ Summary
+## Summary
 This lab demonstrates how to create a **real-time, bi-directional IoT system** using Arduino and Python.  
 It teaches **closed-loop communication, edge detection, and modular programming**, providing a foundation for responsive and interactive IoT applications.
