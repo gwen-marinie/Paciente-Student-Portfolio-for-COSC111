@@ -1,11 +1,11 @@
 # **Midterm Laboratory Exam – Smart Light Monitoring System**
 
-## 📘 Introduction
+## Introduction
 This project represents the Midterm Laboratory Exam and integrates multiple lessons from earlier activities into a unified smart monitoring system. It features a **dual-mode light detection setup** that measures environmental brightness and displays the results using a three-color LED indicator. The device can run autonomously or respond to user-defined settings through typed commands, making it adaptable to different lighting conditions.
 
 ---
 
-## 🌟 System Features
+## System Features
 The Smart Light Monitoring System operates in two functional modes:
 
 ### **1️⃣ Automatic Mode (Default)**
@@ -30,7 +30,7 @@ MODE MANUAL
 
 ---
 
-### **📊 Real-Time Feedback**
+### **Real-Time Feedback**
 The system continuously prints:
 - Current light percentage
 - Which LED is active
@@ -39,7 +39,7 @@ This provides a simple live dashboard for monitoring behavior every second.
 
 ---
 
-## 🧱 How the System Works
+## How the System Works
 
 ### **🔸 Input**
 - A **photoresistor** on **Analog Pin A0** reads the ambient light level.
@@ -61,7 +61,7 @@ This provides a simple live dashboard for monitoring behavior every second.
 
 ---
 
-## 🧠 Code Breakdown
+## Code Breakdown
 
 ### **State Machine Behavior**
 The program structure changes depending on whether Automatic or Manual mode is active.  
@@ -112,7 +112,7 @@ SET HIGH <value>
 
 ---
 
-## 📡 IoT Concepts Demonstrated
+## IoT Concepts Demonstrated
 
 ### **🔹 Dynamic Configuration**
 Parameters can be updated while the system is running — essential for adapting deployed IoT devices to real-world changes.
@@ -128,6 +128,6 @@ Raw sensor values are mapped into a more readable percentage format for easier m
 
 ---
 
-## ✅ Summary
+## Summary
 This Smart Light Monitoring System showcases how sensors, user commands, and LED indicators can create an adaptable and interactive IoT device. With adjustable thresholds, real-time feedback, and multi-mode operation, it demonstrates essential concepts in environmental monitoring and embedded system design.
 
